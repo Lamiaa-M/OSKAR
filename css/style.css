@@ -1,0 +1,154 @@
+
+
+.main-color 
+{
+    color: #ff206e!important;
+}
+
+a 
+{
+    color: #ffff !important;
+}
+
+p
+{
+    line-height: 1.5;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container
+{
+    width: 80%;
+
+}
+
+.dot
+{
+   font-size: 0.4rem;
+}
+
+
+
+
+
+
+/* =====================/nav ===================== */
+
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #ff206e!important;
+
+
+}
+
+/* =====================/header ===================== */
+header {
+    background-image: url(../images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.icon
+{
+    width: 2rem;
+    height: 2rem;
+    border: 0.01rem solid rgba(255, 255, 255,0.25);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+
+}
+
+.icon:hover
+{
+    color: #ff206e;
+    border-color: #ff206e;
+}
+/* =====================/About ===================== */
+
+#About
+{
+    background-image: url(../images/light_dot.jpg);
+}
+.title h2
+{
+    font-size: 5rem;
+    font-weight: 800;
+    color: rgb(241, 241, 241);    ;
+}
+.title h3
+{
+    font-size: 2.5rem;
+    font-weight: 800;
+
+}
+
+/* =====================/SERVICES ===================== */
+
+#SERVICES{
+
+    background-image:url(../images/dark_dot.jpg) ;
+}
+
+#SERVICES .title h2 {
+    color: #222;
+}
+
+#SERVICES .title h3  {
+    color: #fff;
+    letter-spacing: 3px;
+
+}
+
+.service-items .icon{
+    background-color: black;
+    color: #fff;
+    border: solid #fff 0.1rem;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50% ,-50%);
+    -webkit-transform: translate(-50% ,-50%);
+    -moz-transform: translate(-50% ,-50%);
+    -ms-transform: translate(-50% ,-50%);
+    -o-transform: translate(-50% ,-50%);
+}
+
+.service-items .icon:hover
+{
+    color: #ff206e;
+
+ }
+
+ 
+
+.service-contant h6::after
+{
+    content: "";
+    background-color: #ff206e;
+    position: absolute;
+    width: 10%;
+    height: 0.01rem;
+    bottom: 0;
+    left: 45%;
+  
+}
+
+/* =====================/profile ===================== */
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link
+{
+    color: #ff206e;
+  background-color: transparent ;
+
+ 
+}
+
+.nav-pills .nav-link:hover
+{
+    color: #ff206e;
+
+}
